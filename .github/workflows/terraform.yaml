@@ -24,8 +24,8 @@ jobs:
         uses: google-github-actions/auth@v0.7.0
         with:
           create_credentials_file: 'true'
-          workload_identity_provider: "projects/266584906178/locations/global/workloadIdentityPools/github/providers/github"
-          service_account: tf-project-creator@terraform-state-322020.iam.gserviceaccount.com
+          workload_identity_provider: "projects/819559837099/locations/global/workloadIdentityPools/github-workload-pool/providers/github"
+          service_account: github-wif@terraform-project-443109.iam.gserviceaccount.com
 
 
       - name: Setup Terraform
